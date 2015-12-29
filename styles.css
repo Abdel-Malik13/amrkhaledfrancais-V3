@@ -1,0 +1,87 @@
+html { box-sizing: border-box; }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 62.5%;
+    font-family: Arial;
+}
+
+.menu {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #fc8f30;
+    margin-left: -9999px;
+}
+
+.btn {
+    position: absolute;
+    background-image: url(img/rectangular4.png);
+    width: 32px;
+    height: 32px;
+    left: 12%;
+    top: 20px;
+    cursor: pointer;
+}
+
+.corps {
+    width: 100%;
+    height: 100%;
+    float: right;
+    background-color: rgb(62, 122, 101);
+}
+
+.menu-lien-contain {
+    margin-top: 20%;
+    font-size: 1.7em;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+.menu-lien-contain li {
+    list-style: none;
+}
+
+.menu-lien-contain li:first-child:before, .menu-lien-contain li:after {
+    content: url(img/liseret-2.png);
+    width: 219px;
+    height: 5px;
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.menu-lien-contain .lien-menu {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.mgl0 {margin-left: 0;}
+.corps-width {width: 80%;}
+
+.test {
+    background-image: url(img/delete85.png);
+    cursor: pointer;
+    left: 17%;
+}
+.signature {
+    display: block;
+    margin: 40px auto;
+}
